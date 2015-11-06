@@ -1,6 +1,8 @@
 from itertools import groupby
 import enchant
 
+#sooooo -> so
+
 def standardize(vec_str):
     is_english = enchant.Dict("en_US")
     length = len(vec_str)

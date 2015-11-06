@@ -1,2 +1,5 @@
+from nltk.tokenize import TweetTokenizer
+
 def tokenize(raw_string):
-    return raw_string.split(' ');
+    tknzr = TweetTokenizer()
+    return tknzr.tokenize(raw_string);
